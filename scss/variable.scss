@@ -22,6 +22,8 @@ $grayish-blue: hsl(246, 25%, 77%);
 
 // Typography
 
+$font-text: clamp(16px, 4.25vw, 32px);
+
 /* Body Copy */ 
 
 // Font Weights: 400, 500, 600, 700
@@ -30,6 +32,6 @@ $poppins: 'Poppins', sans-serif;
 
 
 
-$margin-body-left-right: 2rem;
-$margin-body-top-bottom: 2rem;
+$padding-body-left-right: clamp(24px, 6.4vw, 92px);
+$padding-body-top-bottom: 2rem;
 

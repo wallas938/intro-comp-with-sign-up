@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-image: url(../../images/bg-intro-mobile.png);
+    background-color: $red;
+    padding: $padding-body-left-right $padding-body-top-bottom;
+    font-family: $poppins;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

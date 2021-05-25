@@ -1,0 +1,15 @@
+section#hero {
+    color: white;
+    text-align: center;
+
+    h1 {
+        margin: 3.5vw 0 6vw 0;
+        line-height: 1.99rem;
+        font-size: clamp(24px, 6.4vw, 48px);
+    }
+
+    p {
+        margin-bottom: 12vw;
+        font-size: $font-text;
+    }
+}

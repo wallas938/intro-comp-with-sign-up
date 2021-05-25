@@ -1,17 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "scss/variable.scss";
+@import "scss/global.scss";
+@import "scss/partials/hero";
+@import "scss/partials/forms";
 
-body {
-    font-size: 16px;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
