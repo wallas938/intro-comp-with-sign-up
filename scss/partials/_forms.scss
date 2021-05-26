@@ -1,16 +1,21 @@
+@import "../variable.scss";
+@import "../global.scss";
+
 section#form {
   button#trial-btn {
     border: none;
     display: block;
+    box-shadow: 0px 8px rgba(0, 0, 0, .1);
     font-weight: 400;
     margin-bottom: 5vw;
-    border-radius: 6px;
+    border-radius: 10px;;
     text-align: center;
-    padding: 5.3vw 18.3vw;
+    padding: clamp(19.8667px, 5.3vw, 76.2667px) clamp(68.6167px, 18.3vw, 76.2667px);
     background-color: $blue;
     color: $grayish-blue;
-    font-size: $font-text;
+    font-size: $mobile-font-text;
     width: 100%;
+
     span {
       font-weight: 600;
       color: white;
@@ -20,44 +25,99 @@ section#form {
   form {
     background-color: white;
     padding: 6%;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 8px rgba(0, 0, 0, .1);
     input {
       display: block;
       width: 100%;
       border: 0.5px solid rgba(185, 182, 211, 0.4);
-      border-radius: 5px;
+      border-radius: 10px;
       padding-left: 1rem;
       height: 12vw;
       color: $dark-blue;
-      font-weight: 600;
+      font-weight: 500;
       margin: 4vw auto;
-      font-size: $font-text;
+      font-size: $mobile-font-text;
     }
 
     button {
       text-transform: uppercase;
       margin-bottom: 2.5vw;
+      box-shadow: 0px 5px rgb(60, 179, 113);
       border: none;
-      padding: 4.5vw;
+      padding: clamp(16.8667px, 4.5vw, 64.75px);
       display: block;
       color: white;
-      font-weight: 400;
+      font-weight: 600;
       border-radius: 6px;
       background-color: $green;
       width: 100%;
-      font-size: $font-text;
+      font-size: $mobile-font-text;
     }
 
     small {
-        display: block;
-        padding: 0 4%;
-        text-align: center;
-        font-size: 2.7vw;
-        color: $grayish-blue;
-        margin-bottom: 3vw;
+      display: block;
+      padding: 0 4%;
+      text-align: center;
+      font-size: 2.7vw;
+      color: $grayish-blue;
+      margin-bottom: 3vw;
+
       span {
         color: $red;
         font-weight: 900;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  section#form {
+    width: 51%;
+    button#trial-btn {
+      margin-bottom: 2vw;
+      padding: clamp(28.8px, 2vw, 56px);
+      font-size: $desktop-font-text;
+      width: 100%;
+  
+      span {
+        font-weight: 600;
+        color: white;
+      }
+    }
+  
+    form {
+      input {
+        display: block;
+        width: 100%;
+        border: 0.5px solid rgba(185, 182, 211, 0.4);
+        border-radius: 10px;
+        padding-left: 1rem;
+        height: 5vw;
+        color: $dark-blue;
+        font-weight: 500;
+        margin: 2vw auto;
+        font-size: $desktop-font-text;
+      }
+  
+      button {
+        margin-bottom: 2.5vw;
+        padding: clamp(21.6px, 1.5vw, 43.2px);
+        font-size: $desktop-font-text;
+      }
+  
+      small {
+        display: block;
+        padding: 0 4%;
+        text-align: center;
+        font-size: $desktop-font-text;
+        color: $grayish-blue;
+        margin-bottom: 3vw;
+  
+        span {
+          color: $red;
+          font-weight: 900;
+        }
       }
     }
   }

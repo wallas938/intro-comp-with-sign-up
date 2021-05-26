@@ -22,7 +22,8 @@ $grayish-blue: hsl(246, 25%, 77%);
 
 // Typography
 
-$font-text: clamp(16px, 4.25vw, 32px);
+$mobile-font-text: clamp(16px, 4.25vw, 32px);
+$desktop-font-text: clamp(18px, 1.25vw, 36px);
 
 /* Body Copy */ 
 
@@ -32,6 +33,9 @@ $poppins: 'Poppins', sans-serif;
 
 
 
-$padding-body-left-right: clamp(24px, 6.4vw, 92px);
-$padding-body-top-bottom: 2rem;
+$mobile-padding-body-left-right: clamp(24px, 6.4vw, 92px);
+$mobile-padding-body-top-bottom: clamp(75px, 20vw, 287.8px);
+
+$desktop-padding-body-left-right: 4vw;
+$desktop-padding-body-top-bottom: 4vw;
 
