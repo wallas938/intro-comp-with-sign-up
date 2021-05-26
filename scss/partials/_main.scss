@@ -1,10 +1,11 @@
 @import "../variable.scss";
-@import "../global.scss";
 
 @media screen and (min-width: $desktop) {
-    main {
-        display: flex;
-        width: 100%;
-        justify-content: space-evenly;
-    }
+  main {
+    width: 80%;
+    margin: 12% auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+  }
 }

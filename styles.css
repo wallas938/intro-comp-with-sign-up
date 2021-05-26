@@ -1,9 +1,6 @@
 /* Body Copy */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /* Body Copy */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +8,24 @@
           box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 16px;
   background-image: url(../../images/bg-intro-mobile.png);
   background-color: #ff7a7a;
+  background-position: center;
+  background-size: contain;
   padding: clamp(75px, 20vw, 287.8px) clamp(24px, 6.4vw, 92px);
   font-family: "Poppins", sans-serif;
 }
@@ -29,84 +40,27 @@ a {
 
 @media screen and (min-width: 1440px) {
   body {
-    padding: 4vw 4vw;
+    padding: unset;
   }
 }
 
 /* Body Copy */
-/* Body Copy */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-size: 16px;
-  background-image: url(../../images/bg-intro-mobile.png);
-  background-color: #ff7a7a;
-  padding: clamp(75px, 20vw, 287.8px) clamp(24px, 6.4vw, 92px);
-  font-family: "Poppins", sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (min-width: 1440px) {
-  body {
-    padding: 4vw 4vw;
-  }
-}
-
 @media screen and (min-width: 1440px) {
   main {
+    width: 80%;
+    margin: 12% auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-item-align: center;
+        align-self: center;
   }
 }
 
 /* Body Copy */
-/* Body Copy */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-size: 16px;
-  background-image: url(../../images/bg-intro-mobile.png);
-  background-color: #ff7a7a;
-  padding: clamp(75px, 20vw, 287.8px) clamp(24px, 6.4vw, 92px);
-  font-family: "Poppins", sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (min-width: 1440px) {
-  body {
-    padding: 4vw 4vw;
-  }
-}
-
 section#hero {
   color: white;
   text-align: center;
@@ -139,47 +93,17 @@ section#hero p {
             justify-content: center;
   }
   section#hero h1 {
-    line-height: clamp(72px, 5vw, 148px);
-    margin: 0 0 clamp(36px, 2.5vw, 72px) 0;
-    font-size: clamp(57.6px, 4vw, 102px);
+    font-size: clamp(48.95px, 3.4vw, 97.9px);
+    line-height: clamp(54.7167px, 3.8vw, 94.8px);
+    margin: 0 0 clamp(28.8px, 2vw, 57.6px) 0;
   }
   section#hero p {
-    font-size: clamp(18.7167px, 1.3vw, 36px);
+    font-size: clamp(15.8333px, 1.1vw, 31px);
     margin: unset;
   }
 }
 
 /* Body Copy */
-/* Body Copy */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-size: 16px;
-  background-image: url(../../images/bg-intro-mobile.png);
-  background-color: #ff7a7a;
-  padding: clamp(75px, 20vw, 287.8px) clamp(24px, 6.4vw, 92px);
-  font-family: "Poppins", sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (min-width: 1440px) {
-  body {
-    padding: 4vw 4vw;
-  }
-}
-
 section#form button#trial-btn {
   border: none;
   display: block;
@@ -254,11 +178,11 @@ section#form form small span {
 
 @media screen and (min-width: 1440px) {
   section#form {
-    width: 51%;
+    width: 48%;
   }
   section#form button#trial-btn {
-    margin-bottom: 2vw;
-    padding: clamp(28.8px, 2vw, 56px);
+    margin-bottom: clamp(21.6px, 1.5vw, 43.2px);
+    padding: clamp(21.6px, 1.5vw, 43.2px);
     font-size: clamp(18px, 1.25vw, 36px);
     width: 100%;
   }
@@ -272,24 +196,25 @@ section#form form small span {
     border: 0.5px solid rgba(185, 182, 211, 0.4);
     border-radius: 10px;
     padding-left: 1rem;
-    height: 5vw;
+    height: 4vw;
     color: #3e3c49;
     font-weight: 500;
-    margin: 2vw auto;
+    margin: 0.5vw 0;
     font-size: clamp(18px, 1.25vw, 36px);
   }
   section#form form button {
-    margin-bottom: 2.5vw;
-    padding: clamp(21.6px, 1.5vw, 43.2px);
+    margin-bottom: clamp(21.6px, 1.5vw, 43.2px);
+    padding: clamp(17.2667px, 1.2vw, 34.5px);
     font-size: clamp(18px, 1.25vw, 36px);
+    width: 100%;
   }
   section#form form small {
     display: block;
     padding: 0 4%;
     text-align: center;
-    font-size: clamp(18px, 1.25vw, 36px);
+    font-size: clamp(12.2333px, 0.85vw, 24.46px);
     color: #b9b6d3;
-    margin-bottom: 3vw;
+    margin-bottom: clamp(14.4px, 1vw, 28.8px);
   }
   section#form form small span {
     color: #ff7a7a;

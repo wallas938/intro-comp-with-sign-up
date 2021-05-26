@@ -1,39 +1,38 @@
 @import "../variable.scss";
-@import "../global.scss";
 
 section#hero {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 
-    h1 {
-        margin: 3.5vw 0 6vw 0;
-        line-height: clamp(31.1167px, 8.3vw, 119.433px);
-        font-size: clamp(24px, 6.4vw, 48px);
-    }
+  h1 {
+    margin: 3.5vw 0 6vw 0;
+    line-height: clamp(31.1167px, 8.3vw, 119.433px);
+    font-size: clamp(24px, 6.4vw, 48px);
+  }
 
-    p {
-        margin-bottom: 12vw;
-        font-size: $mobile-font-text;
-    }
+  p {
+    margin-bottom: 12vw;
+    font-size: $mobile-font-text;
+  }
 }
 
 @media screen and (min-width: $desktop) {
-    section#hero {
-        width: 48%;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+  section#hero {
+    width: 48%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-        h1 {
-            line-height: clamp(72px, 5vw, 148px);
-            margin: 0 0 clamp(36px, 2.5vw, 72px) 0;
-            font-size: clamp(57.6px, 4vw, 102px);
-        }
-
-        p {
-            font-size: clamp(18.7167px, 1.3vw, 36px);
-            margin: unset;
-        }
+    h1 {
+      font-size: clamp(48.95px, 3.4vw, 97.9px);
+      line-height: clamp(54.7167px, 3.8vw, 94.8px);
+      margin: 0 0 clamp(28.8px, 2vw, 57.6px) 0;
     }
+
+    p {
+      font-size: clamp(15.8333px, 1.1vw, 31px);
+      margin: unset;
+    }
+  }
 }
