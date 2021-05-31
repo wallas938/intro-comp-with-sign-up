@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+html {
     height: 100%;
 }
 
@@ -37,5 +37,6 @@ a {
 @media screen and (min-width: $desktop) {
     body {
         padding: unset;
+        height: 100%;
     }
 }
