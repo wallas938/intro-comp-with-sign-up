@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 
   <title>Frontend Mentor | Intro component with sign up form</title>
-
+  <script src="scripts/scripts.js" defer></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
@@ -42,10 +42,26 @@
         <span>Try it free 7 days</span> then $20/mo. thereafter
       </button>
       <form>
-        <input placeholder="First Name" type="text">
-        <input placeholder="Last Name" type="text">
-        <input placeholder="Email Address" type="text">
-        <input placeholder="Password" type="text">
+        <label for="firstName">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
+          <input id="firstName" placeholder="First Name" type="text">
+          <small class="hide">First Name cannot be empty</small>
+        </label>
+        <label for="lastName">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
+          <input id="lastName" placeholder="Last Name" type="text">
+          <small class="hide">Last Name cannot be empty</small>
+        </label>
+        <label for="email">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
+          <input id="email" placeholder="Email Address" type="text">
+          <small class="hide">Looks like this is not an email</small>
+        </label>
+        <label for="password">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
+          <input id="password" placeholder="Password" type="text">
+          <small class="hide">Password cannot be empty</small>
+        </label>
         <button>
           Claim your free trial
         </button>

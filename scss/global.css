@@ -37,6 +37,12 @@ a {
   text-decoration: none;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
 @media screen and (min-width: 1440px) {
   body {
     padding: unset;

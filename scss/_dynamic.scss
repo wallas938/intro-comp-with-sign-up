@@ -1,0 +1,35 @@
+.form-border {
+    border: 0.5px solid rgba(185, 182, 211, 0.4);
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block;
+}
+
+.form-error {
+    border: none;
+    border: 2px solid $red !important;
+    position: relative;
+}
+
+.show-error-icon-desktop {
+    z-index: 1;
+    position: absolute;
+    display: unset;
+    width: 1.8vw;
+    top: 1vw;
+    right: 2vw;
+}
+
+.show-error-icon-mobile {
+    z-index: 1;
+    position: absolute;
+    display: unset;
+    width: 4.8vw;
+    top: 3vw;
+    right: 2vw;
+}
