@@ -40,7 +40,7 @@ select:focus {
 
 @media screen and (min-width: $desktop) {
     body {
-        background-image: url(../assets/images/bg-intro-desktop.png);
+        background-image: url("assets/images/bg-intro-desktop.png");
         padding: unset;
         height: 100%;
     }

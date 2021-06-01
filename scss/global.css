@@ -45,7 +45,7 @@ select:focus {
 
 @media screen and (min-width: 1440px) {
   body {
-    background-image: url(../assets/images/bg-intro-desktop.png);
+    background-image: url("assets/images/bg-intro-desktop.png");
     padding: unset;
     height: 100%;
   }
