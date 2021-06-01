@@ -16,7 +16,7 @@ body {
     align-content: center;
     justify-content: center;
     font-size: 16px;
-    background-image: url(../../images/bg-intro-mobile.png);
+    background-image: url(../assets/images/bg-intro-mobile.png);
     background-color: $red;
     background-position: center;
     background-size: contain;
@@ -40,6 +40,7 @@ select:focus {
 
 @media screen and (min-width: $desktop) {
     body {
+        background-image: url(../assets/images/bg-intro-desktop.png);
         padding: unset;
         height: 100%;
     }
