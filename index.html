@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-  <!-- <base href="http://127.0.0.1:5500/"> FOR DEV MODE -->
+  <!-- <base href="http://127.0.0.1:5500/public/"> --> <!-- FOR DEV MODE -->
   <base href="https://wallas938.github.io/intro-comp-with-sign-up/">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Intro component with sign up form</title>
   <script src="scripts/scripts.js" defer></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -44,22 +46,22 @@
       </button>
       <form>
         <label for="firstName">
-          <img class="hide" src="assets/images/icon-error.svg" alt="" srcset="">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
           <input id="firstName" placeholder="First Name" type="text">
           <small class="hide">First Name cannot be empty</small>
         </label>
         <label for="lastName">
-          <img class="hide" src="assets/images/icon-error.svg" alt="" srcset="">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
           <input id="lastName" placeholder="Last Name" type="text">
           <small class="hide">Last Name cannot be empty</small>
         </label>
         <label for="email">
-          <img class="hide" src="assets/images/icon-error.svg" alt="" srcset="">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
           <input id="email" placeholder="Email Address" type="text">
           <small class="hide">Looks like this is not an email</small>
         </label>
         <label for="password">
-          <img class="hide" src="assets/images/icon-error.svg" alt="" srcset="">
+          <img class="hide" src="images/icon-error.svg" alt="" srcset="">
           <input id="password" placeholder="Password" type="text">
           <small class="hide">Password cannot be empty</small>
         </label>

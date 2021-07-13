@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import "variable.scss";
 
 * {
     margin: 0;
@@ -9,19 +7,19 @@
 
 html {
     height: 100%;
+    font-size: 16px;
+    font-family: $poppins;
 }
 
 body {
     display: flex;
     align-content: center;
     justify-content: center;
-    font-size: 16px;
-    background-image: url("assets/images/bg-intro-mobile.png");
     background-color: $red;
-    background-position: center;
     background-size: contain;
+    background-position: center;
+    background-image: url("../images/bg-intro-mobile.png");
     padding: $mobile-padding-body-top-bottom $mobile-padding-body-left-right;
-    font-family: $poppins;
 }
 
 li {
@@ -40,7 +38,7 @@ select:focus {
 
 @media screen and (min-width: $desktop) {
     body {
-        background-image: url("assets/images/bg-intro-desktop.png");
+        background-image: url("../images/bg-intro-desktop.png");
         padding: unset;
         height: 100%;
     }

@@ -1,8 +1,12 @@
-@import "../variable.scss";
+
+main {
+  max-width: 768px;
+}
 
 @media screen and (min-width: $desktop) {
   main {
     width: 80%;
+    max-width: 1280px;
     margin: 12% auto;
     display: flex;
     justify-content: space-between;
