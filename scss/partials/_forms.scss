@@ -40,8 +40,8 @@ section#form {
     input {
       display: block;
       width: 100%;
-      border: 0.5px solid rgba(185, 182, 211, 0.4);
-      border-radius: 10px;
+      border: 1px solid rgba(185, 182, 211, 0.4);
+      border-radius: 5px;
       padding: 1.15em;
       color: $dark-blue;
       font-weight: 700;
@@ -90,7 +90,7 @@ section#form {
       padding: clamp(21.6px, 1.5vw, 43.2px);
       font-size: $desktop-font-text;
       width: 100%;
-
+      max-width: none;
       span {
         font-weight: 600;
         color: white;
@@ -98,7 +98,7 @@ section#form {
     }
 
     form {
-
+      max-width: none;
       input {
         display: block;
         width: 100%;

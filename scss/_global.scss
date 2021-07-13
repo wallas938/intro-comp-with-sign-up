@@ -42,4 +42,8 @@ select:focus {
         padding: unset;
         height: 100%;
     }
+
+    input:focus {
+        outline: auto;
+    }
 }
